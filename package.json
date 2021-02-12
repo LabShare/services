@@ -70,7 +70,7 @@
     "q": "^1.4.1",
     "resolve-pkg": "^2.0.0",
     "revalidator": "^0.3.1",
-    "snyk": "^1.87.0",
+    "snyk": "^1.232.0",
     "socket.io": "^2.0.2",
     "socket.io-client": "^2.0.2",
     "socket.io-stream": "^0.9.1",
