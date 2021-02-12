@@ -17,7 +17,8 @@
     "coverage": "nyc jasmine JASMINE_CONFIG_PATH=./test/lib/jasmine.json",
     "snyk-protect": "snyk protect",
     "travis-deploy-once": "travis-deploy-once",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "prepare": "npm run snyk-protect"
   },
   "bugs": {
     "url": "https://github.com/LabShare/services/issues"
@@ -70,7 +71,7 @@
     "q": "^1.4.1",
     "resolve-pkg": "^2.0.0",
     "revalidator": "^0.3.1",
-    "snyk": "^1.87.0",
+    "snyk": "^1.316.1",
     "socket.io": "^2.0.2",
     "socket.io-client": "^2.0.2",
     "socket.io-stream": "^0.9.1",
@@ -123,5 +124,5 @@
       "@semantic-release/git"
     ]
   },
-  "snyk": false
+  "snyk": true
 }
